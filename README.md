@@ -21,9 +21,9 @@ node-poundcake -n <dirname>
 # node-poundcake --help
 -n, --name <dir>  project directory name
 --ts              typescript mode
---api             express api
---mongo           mongoose service
---rabbitmq        amqplib service
+--api             add express api
+--mongo           add mongoose service
+--rabbitmq        add amqplib service
 -f, --force       remove directory if exists
 -h, --help        display help for command
 ```

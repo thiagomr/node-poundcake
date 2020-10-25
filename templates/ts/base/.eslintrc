@@ -1,18 +1,16 @@
 {
-    "env": {
-        "node": true,
-        "es6": true,
-        "jest": true
-    },
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true,
-            "modules": true
-        },
-        "ecmaVersion": 2017,
-        "sourceType": "module"
-    },
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
     "rules": {
+        "@typescript-eslint/no-explicit-any": ["error", { "ignoreRestArgs": true }],
         "array-bracket-spacing": [
             2,
             "never"
@@ -45,7 +43,6 @@
             1,
             200
         ],
-        "no-undef": "error",
         "no-extend-native": 2,
         "no-mixed-spaces-and-tabs": 2,
         "no-trailing-spaces": "error",
