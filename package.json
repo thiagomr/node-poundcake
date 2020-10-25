@@ -2,10 +2,13 @@
   "name": "node-poundcake",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/cli.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node lib/cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "node-poundcake": "./bin/node-poundcake"
   },
   "keywords": [],
   "author": "Thiago Moraes",
