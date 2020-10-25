@@ -14,11 +14,13 @@
   "author": "Thiago Moraes",
   "license": "ISC",
   "dependencies": {
-    "commander": "^6.2.0",
-    "eslint": "^7.12.0"
+    "commander": "^6.2.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/thiagomr/node-poundcake"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.0"
   }
 }
