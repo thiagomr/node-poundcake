@@ -10,7 +10,16 @@
   "bin": {
     "node-poundcake": "./bin/node-poundcake"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "typescript",
+    "mongoose",
+    "amqplib",
+    "scaffold",
+    "boilerplate",
+    "api",
+    "express"
+  ],
   "author": "Thiago Moraes",
   "license": "ISC",
   "dependencies": {

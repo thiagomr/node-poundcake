@@ -29,7 +29,7 @@
       "/node_modules/"
     ]
   },
-  "keywords": ["node", "typescript", "mongoose", "amqplib", "scaffold", "boilerplate", "api", "express"],
+  "keywords": [],
   "author": "Thiago Moraes",
   "license": "ISC",
   "dependencies": {
