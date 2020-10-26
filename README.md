@@ -131,3 +131,7 @@ All dependencies will be added on `package.json` according to the options.
 # License
 
 [MIT](LICENSE)
+
+# E.V.H.
+
+The name of the application is a tribute to EVH (1955 - 2020). Thanks for everything Eddie.
