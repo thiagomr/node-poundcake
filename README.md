@@ -123,6 +123,7 @@ All dependencies will be added on `package.json` according to the options.
 --api             add express api
 --mongo           add mongoose service
 --rabbitmq        add amqplib service
+--swagger         add swagger doc
 -f, --force       remove directory if exists
 -h, --help        display help for command
 ```
